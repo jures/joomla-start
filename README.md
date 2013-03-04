@@ -1,5 +1,5 @@
 # Joomla mobile first template in HTML5, SASS + Compass
-The template automatically unsets the core Joomla libraries (caption.js, core.js, mootools-core.js, mootools-more.js). Twitter bootstrap is also not included, so you really start with a blank template. There is a config.rb file included, if you are using sass and compass.
+The template automatically unsets the core Joomla libraries (caption.js, core.js, mootools-core.js, mootools-more.js). Twitter bootstrap is also not included, so you really start with a blank template. There is a config.rb file included, if you are using sass and compass. Template was tested in Joomla 3.0.3.
 
 # How to use it
 If you need a detailed explanation you can [read my blog post about the template](http://jure-stern.si/blog/mobile-first-joomla-template-in-html5-sass-compass/).
@@ -26,4 +26,4 @@ You can activate the following:
 For version numbers check the humans.txt file in the template root.
 
 # Author
-Jure Stern - [Follow me on Twitter](https://twitter.com/JureStern) or [read my blog](http://jure-stern.si/en/blog.html)
+Jure Stern - [Follow me on Twitter](https://twitter.com/JureStern) or [read my blog](http://jure-stern.si/blog.html)
