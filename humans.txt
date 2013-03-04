@@ -1,0 +1,64 @@
+/* TEAM */
+
+			Creator: Jure Štern
+			  Title: Web Designer & Front-end Developer
+			Website: http://jure-stern.si/
+			Twitter: @JureStern
+			   From: Slovenia
+ Project link: http://github.com - dodaj link
+
+
+/* USED PLUGINS AND RESOURCES */
+
+       Name: iOS App Icon Template
+Description: Photoshop template with smart layers and action for exporting icons
+    Version: 2.1
+        url: http://appicontemplate.com/
+
+       Name: Zepto.js
+Description: Zepto is a minimalist JavaScript library for modern browsers
+    Version: 1.0rc1
+        url: http://zeptojs.com/
+
+       Name: jQuery.js
+Description: jQuery is a fast, small, and feature-rich JavaScript library
+    Version: 1.9.1
+        url: http://jquery.com/
+
+       Name: Sizzle.js
+Description: A pure JavaScript CSS selector engine
+    Version: 1.9.1
+        url: http://sizzlejs.com/
+
+       Name: selectivizr.js
+Description: selectivizr is a JavaScript utility for CSS3 pseudo-classes and attributes in IE 6-8
+    Version: 1.0.2
+        url: http://selectivizr.com/
+
+       Name: modernizr.js
+Description: Modernizr is a JavaScript library that detects HTML5 and CSS3 features
+    Version: 2.6.2
+        url: http://modernizr.com/
+
+       Name: html5shiv.js
+Description: The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explorer
+    Version: 3.6.2
+        url: https://github.com/aFarkas/html5shiv
+
+       Name: html5shiv-printshiv.js
+Description: HTML5 elements to be styled and contain children while being printed in IE 6-8
+    Version: 3.6.2
+        url: https://github.com/aFarkas/html5shiv
+
+       Name: warning.js
+Description: The ie6 upgrade warning script
+    Version: 
+        url: https://github.com/jbueza/IE6-Warning-with-Localizations
+
+/* SITE */
+
+	Last update: 2013/03/04
+	   Language: English
+	    Doctype: HTML5
+	        CMS: Joomla 3.0.3
+	        IDE: Sublime Text 2, GitHub

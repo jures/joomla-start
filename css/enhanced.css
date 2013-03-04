@@ -1,0 +1,29 @@
+@media all and (min-width: 40.5em) {
+  /* line 4, ../sass/enhanced.scss */
+  #content {
+    width: 100%;
+    padding: 20px; }
+
+  /* line 8, ../sass/enhanced.scss */
+  #content30 {
+    width: 80%;
+    float: left;
+    padding: 20px; }
+
+  /* line 13, ../sass/enhanced.scss */
+  #content20 {
+    width: 60%;
+    float: left;
+    padding: 20px; }
+
+  /* line 18, ../sass/enhanced.scss */
+  #left-sidebar {
+    width: 20%;
+    float: left;
+    padding: 20px; }
+
+  /* line 23, ../sass/enhanced.scss */
+  #right-sidebar {
+    width: 20%;
+    float: right;
+    padding: 20px; } }

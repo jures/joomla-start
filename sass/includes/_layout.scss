@@ -1,0 +1,7 @@
+@import "compass/css3/box-sizing";
+@import "variables.scss";
+@import "typography.scss";
+
+* {
+  @include box-sizing(border-box);
+}

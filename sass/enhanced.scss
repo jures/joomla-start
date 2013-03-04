@@ -1,0 +1,28 @@
+@import "includes/variables.scss";
+
+@media all and (min-width: 40.5em) {
+  #content {
+    width: 100%;
+    padding: $padding; 
+  }
+  #content30 {
+    width: 80%;
+    float: left;
+    padding: $padding;
+  }
+  #content20 {
+    width: 60%;
+    float: left;
+    padding: $padding;
+  }
+  #left-sidebar {
+    width: 20%;
+    float: left;
+    padding: $padding;
+  }
+  #right-sidebar {
+    width: 20%;
+    float: right;
+    padding: $padding;
+  }
+}

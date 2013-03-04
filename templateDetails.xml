@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>joomla-start</name>
+	<creationDate>1 March 2013</creationDate>
+	<author>Jure Stern</author>
+	<authorEmail>info@jure-stern.si</authorEmail>
+	<authorUrl>http://jure-stern.si</authorUrl>
+	<copyright>Copyright (C) 20013 - Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0.0</version>
+	<description>TPL_JOOMLA-START_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>IE6</folder>
+		<folder>images</folder>
+		<folder>include</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>sass</folder>
+		<filename>component.php</filename>
+		<filename>config.rb</filename>
+		<filename>favicon.ico</filename>
+		<filename>humans.txt</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>left</position>
+		<position>right</position>
+		<position>nav</position>
+		<position>breadcrumbs</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_joomla-start.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="OPTIONS">
+				<field name="logo" type="media"
+					label="TPL_JOOMLA-START_FIELD_LOGO_LABEL"
+					description="TPL_JOOMLA-START_FIELD_LOGO_DESC" />
+				<field name="sitetitle" type="text" default=""
+					label="TPL_JOOMLA-START_FIELD_SITETITLE_LABEL"
+					description="TPL_JOOMLA-START_FIELD_SITETITLE_DESC"
+					filter="string" />
+				<field name="zepto" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_ZEPTO_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_ZEPTO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="jquery" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_JQUERY_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_JQUERY_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="sizzle" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_SIZZLE_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_SIZZLE_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="selectivizr" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_SELECTIVIZR_LABEL"
+					description="TPL_JOOMLA-START_FIELD_SELECTIVIZR_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="modernizr" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_MODERNIZR_LABEL"
+					description="TPL_JOOMLA-START_FIELD_MODERNIZR_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="html5shiv" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_HTML5SHIV_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_HTML5SHIV_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="html5shivprint" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_HTML5SHIVPRINT_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_HTML5SHIVPRINT_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="ie6warning" type="radio" class="btn-group" default="0"
+					label="TPL_JOOMLA-START_FIELD_IE6WARNING_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_IE6WARNING_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="IE">
+				<field name="IE7" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_IE7_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_IE7_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="IE8" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_IE8_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_IE8_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="lteIE7" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_LTEIE7_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_LTEIE7_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="lteIE8" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_LTEIE8_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_LTEIE8_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+      </fieldset>
+
+      <fieldset name="ICONS">
+				<field name="icon57" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_ICON57_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_ICON57_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="icon72" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_ICON72_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_ICON72_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="icon114" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_ICON114_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_ICON114_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="icon144" type="radio" class="btn-group" default="0" 
+					label="TPL_JOOMLA-START_FIELD_ICON144_LABEL" 
+					description="TPL_JOOMLA-START_FIELD_ICON144_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+      </fieldset>
+      
+		</fields>
+	</config>
+</extension>
