@@ -5,7 +5,7 @@
 			Website: http://jure-stern.si/
 			Twitter: @JureStern
 			   From: Slovenia
- Project link: http://github.com - dodaj link
+ Project link: https://github.com/jures/joomla-start
 
 
 /* USED PLUGINS AND RESOURCES */
