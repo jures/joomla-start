@@ -1,5 +1,7 @@
 <?php defined('_JEXEC') or die;
 
+$document = JFactory::getDocument();
+
 // unsetting Default Joomla scripts
 unset($this->_scripts[JURI::root(true).'/media/system/js/caption.js']);
 unset($this->_scripts[JURI::root(true).'/media/system/js/core.js']);
@@ -7,7 +9,7 @@ unset($this->_scripts[JURI::root(true).'/media/system/js/mootools-core.js']);
 unset($this->_scripts[JURI::root(true).'/media/system/js/mootools-more.js']);
 
 // remove call to JTooltips
-$document->_script = preg_replace('window\.addEvent\(\'domready\',\s*function\(\)\s*{\s*\$\$\(\'.hasTip\'\).each\(function\(el\)\s*{\s*var\s*title\s*=\s*el.get\(\'title\'\);\s*if\s*\(title\)\s*{\s*var\s*parts\s*=\s*title.split\(\'::\',\s*2\);\s*el.store\(\'tip:title\',\s*parts\[0\]\);\s*el.store\(\'tip:text\',\s*parts\[1\]\);\s*}\s*}\);\s*var\s*JTooltips\s*=\s*new\s*Tips\(\$\$\(\'.hasTip\'\),\s*{\s*maxTitleChars:\s*50,\s*fixed:\s*false}\);\s*}\);', '', $document->_script);
+$document->_script = preg_replace('%window\.addEvent\(\'domready\',\s*function\(\)\s*{\s*\$\$\(\'.hasTip\'\).each\(function\(el\)\s*{\s*var\s*title\s*=\s*el.get\(\'title\'\);\s*if\s*\(title\)\s*{\s*var\s*parts\s*=\s*title.split\(\'::\',\s*2\);\s*el.store\(\'tip:title\',\s*parts\[0\]\);\s*el.store\(\'tip:text\',\s*parts\[1\]\);\s*}\s*}\);\s*var\s*JTooltips\s*=\s*new\s*Tips\(\$\$\(\'.hasTip\'\),\s*{\s*maxTitleChars:\s*50,\s*fixed:\s*false}\);\s*}\);', '', $document->_script);
 
 // Metas
 $doc->setMetaData( 'viewport', 'width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes' );
@@ -15,7 +17,6 @@ $doc->setMetaData( 'HandheldFriendly', 'true' );
 $doc->setMetaData( 'apple-mobile-web-app-capable', 'yes' );
 
 // adding stylesheets
-$document = JFactory::getDocument();
 $document->addStyleSheet('templates/'.$this->template.'/css/screen.css','text/css','screen handheld');
 $document->addStyleSheet('templates/'.$this->template.'/css/enhanced.css','text/css','screen and (min-width: 40.5em)');
 
