@@ -17,7 +17,7 @@ Description: Photoshop template with smart layers and action for exporting icons
 
        Name: Zepto.js
 Description: Zepto is a minimalist JavaScript library for modern browsers
-    Version: 1.0rc1
+    Version: 1.0
         url: http://zeptojs.com/
 
        Name: jQuery.js
@@ -27,7 +27,7 @@ Description: jQuery is a fast, small, and feature-rich JavaScript library
 
        Name: Sizzle.js
 Description: A pure JavaScript CSS selector engine
-    Version: 1.9.1
+    Version: 1.9.3
         url: http://sizzlejs.com/
 
        Name: selectivizr.js
@@ -57,8 +57,8 @@ Description: The ie6 upgrade warning script
 
 /* SITE */
 
-	Last update: 2013/03/04
+	Last update: 2013/05/14
 	   Language: English
 	    Doctype: HTML5
-	        CMS: Joomla 3.0.3
+	        CMS: Joomla 3.1.1
 	        IDE: Sublime Text 2, GitHub
