@@ -14,7 +14,7 @@ $doc->setMetaData( 'HandheldFriendly', 'true' );
 $doc->setMetaData( 'apple-mobile-web-app-capable', 'yes' );
 
 // adding stylesheets
-$document->addStyleSheet('templates/'.$this->template.'/css/screen.css','text/css','screen handheld');
+$document->addStyleSheet('templates/'.$this->template.'/css/screen.css','text/css','screen, handheld');
 $document->addStyleSheet('templates/'.$this->template.'/css/enhanced.css','text/css','screen and (min-width: 40.5em)');
 
 // adding apple document icons
